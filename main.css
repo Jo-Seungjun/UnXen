@@ -1,0 +1,25 @@
+
+body {
+    background-color:antiquewhite;
+    margin: 0px;
+}
+.main input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    margin: 0px;
+    background-color: transparent;
+    text-align: center;
+
+    font-size: 5vw;
+    font-weight: 700;
+    color: lightgray;
+    text-overflow: clip;
+}
+.main input::selection {
+    background-color: none;
+    color: gray;
+}
+.main input::-ms-clear {
+    display: none;
+}
