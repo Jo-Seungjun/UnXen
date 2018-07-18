@@ -1,7 +1,63 @@
 .CMD {
     display: none;
+    background-color:black;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 1%;
 }
 
-.CMD_input {
+.CMD_title {
+    height: 20pt;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    float: right;
+    background-color: darkgray;
+}
+
+.CMD_title .name{
     font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+    padding: 10px;
+}
+
+.CMD_title .buttons {
+    background-color: transparent;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.CMD_title .buttons button {
+    margin: 2px;
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 0px;
+    width: 18pt;
+    height: 18pt;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18pt;
+    border-radius: 10%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    float: left;
+}
+.CMD_title button:hover {
+    background-color: white;
+    color: black;
+}
+
+.CMD_input *{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: none;
 }

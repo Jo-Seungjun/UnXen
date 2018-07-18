@@ -8,15 +8,23 @@
     <link rel="stylesheet" href="CMD.css">
 </head>
 <body>
-    <div class="main">
-        <input class="input" type="text"/>
+    <div class="main"> 
+        <input class="input" type="text" onkeydown="if(event.keyCode==13) this.value=''"/>
     </div>
 
     <div class="CMD">
-        <div class="tabs">
-            <span>terminal</span>
+        <div class="CMD_title">
+            <span class="name">terminal</span>
+            <span class="buttons">
+                <button class="MINIMIZE">-</button>
+                <button class="MAXIMIZE">□</button>
+                <button class="RESIZE">▣ </button>
+                <button class="CLOSE">×</button>
+            </span>
         </div>
-        <textarea name="terminal" id=""></textarea>
+        <div class="CMD_input">
+            <textarea name="terminal" id=""></textarea>
+        </div>
     </div>
 </body>
 </html>

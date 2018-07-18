@@ -1,0 +1,19 @@
+{
+  "name": "unxen",
+  "version": "1.0.0",
+  "description": "unxen for me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jo-Seungjun/UnXen.git"
+  },
+  "author": "Jo-Seungjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jo-Seungjun/UnXen/issues"
+  },
+  "homepage": "https://github.com/Jo-Seungjun/UnXen#readme"
+}
