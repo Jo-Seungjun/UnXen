@@ -1,12 +1,32 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UnXen</title>
-    <link rel="stylesheet" href="antiquewhite.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="CMD.css">
+    <script src="index.js"></script>
 </head>
 <body>
-    <input class="input" type="text" onkeypress="if (event.keyCode ==13) this.value=''; console.log(event);" autofocus/>
+    <div class="main"> 
+        <input class="input" type="text" onkeypress="if (event.keyCode==13) {textinput(this.value); this.value='';}" autofocus/>
+    </div>
+
+    <div class="CMD">
+        <div class="CMD_title">
+            <span class="name">terminal</span>
+            <span class="buttons">
+                <button class="MINIMIZE">-</button>
+                <button class="MAXIMIZE">□</button>
+                <button class="RESIZE">▣ </button>
+                <button class="CLOSE">×</button>
+            </span>
+        </div>
+        <div class="CMD_input">
+            <textarea name="terminal" id=""></textarea>
+        </div>
+    </div>
 </body>
 </html>

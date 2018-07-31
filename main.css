@@ -1,7 +1,13 @@
-body {
+
+.main {
     background-color:antiquewhite;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
-.input {
+.main input {
     height: 100%;
     width: 100%;
     border: none;
@@ -14,11 +20,10 @@ body {
     color: lightgray;
     text-overflow: clip;
 }
-.input::selection {
-    
+.main input::selection {
     background-color: none;
     color: gray;
 }
-.input::-ms-clear {
+.main input::-ms-clear {
     display: none;
 }
